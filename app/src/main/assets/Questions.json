@@ -1,0 +1,42 @@
+[
+    {
+      "id": 0,
+      "question": "If Hillary Clinton can't satisfy her husband what makes her think she can satisfy America?",
+      "correctAnswer": true
+    },
+    {
+      "id": 1,
+      "question": "I’m the least racist person you have ever interviewed.",
+      "correctAnswer": true
+    },
+    {
+      "id": 2,
+      "question": "I feel like I'm too busy writing history to read it. ",
+      "correctAnswer": true
+    },
+    {
+      "id": 3,
+      "question": "I'm phenomenal with the women, they love me. I do not know why, maybe because I'm so good looking.",
+      "correctAnswer": false
+    },
+    {
+      "id": 4,
+      "question": "My father gave me a small loan of a million dollars.",
+      "correctAnswer": true
+    },
+  {
+    "id": 5,
+    "question": "For me to say I wasn't a genius I'd be lying to you and to myself. ",
+    "correctAnswer": false
+  },
+  {
+  "id": 6,
+  "question": "My fingers are long and beautiful, as, it has been well documented, are various other parts of my body.",
+  "correctAnswer": true
+  },
+  {
+    "id": 7,
+    "question": "I love my haters, they're my biggest fans. ",
+    "correctAnswer": false
+  }
+  ]

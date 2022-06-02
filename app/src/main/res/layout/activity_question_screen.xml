@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionScreen">
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/darkModeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dark_mode"
+        app:layout_constraintBottom_toTopOf="@+id/questionTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/falseBtn"
+        android:layout_width="318dp"
+        android:layout_height="41dp"
+        android:backgroundTint="#C85F57"
+        android:text="False"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trueBtn" />
+
+    <Button
+        android:id="@+id/trueBtn"
+        android:layout_width="318dp"
+        android:layout_height="41dp"
+        android:backgroundTint="#68AE6A"
+        android:text="True"
+        app:layout_constraintBottom_toTopOf="@+id/falseBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trumpPicture"
+        app:strokeColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/trumpPicture"
+        android:layout_width="218dp"
+        android:layout_height="253dp"
+        app:layout_constraintBottom_toTopOf="@+id/trueBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionTextView"
+        app:srcCompat="@drawable/donaldtrump" />
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="292dp"
+        android:layout_height="137dp"
+        android:text="If Hillary Clinton can't satisfy her husband what makes her think she can satisfy America?"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/trumpPicture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
